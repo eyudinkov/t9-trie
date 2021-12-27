@@ -4,7 +4,7 @@ export function cartesian<T>(...words: T[][]): T[][] {
     // part - cartesian product of the first few arrays from words
     (part, array) =>
       part.flatMap((cartesianPart) =>
-        //cartesianPart it is array-prefix of one of the elements of the cartesian product
+        //cartesianPart is an array-prefix of one of the elements of the cartesian product
         array.map((element) => [...cartesianPart, element])
       ),
     [[]]
