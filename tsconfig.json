@@ -1,0 +1,12 @@
+{
+  "compilerOptions": {
+    "target": "es6",
+    "module": "commonjs",
+    "lib": ["es2019", "esnext.asynciterable", "esnext.bigint", "dom"],
+    "rootDir": "./src/",
+    "outDir": "./build/",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "trie-t9",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx tsc && node ./build/index.js",
+    "start:test": "npx tsc && node ./build/index.suite.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "benchmark": "^2.1.4",
+    "typescript": "^4.2.2"
+  },
+  "devDependencies": {
+    "@types/benchmark": "^2.1.1",
+    "@types/node": "^14.14.31"
+  }
+}
